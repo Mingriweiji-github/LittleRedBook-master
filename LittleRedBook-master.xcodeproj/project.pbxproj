@@ -8,13 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		14B84FA4225E27E30045BB48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B84FA3225E27E30045BB48 /* AppDelegate.m */; };
-		14B84FA7225E27E30045BB48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B84FA6225E27E30045BB48 /* ViewController.m */; };
 		14B84FAA225E27E30045BB48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14B84FA8225E27E30045BB48 /* Main.storyboard */; };
 		14B84FAC225E27E80045BB48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14B84FAB225E27E80045BB48 /* Assets.xcassets */; };
 		14B84FAF225E27E80045BB48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14B84FAD225E27E80045BB48 /* LaunchScreen.storyboard */; };
 		14B84FB2225E27E80045BB48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B84FB1225E27E80045BB48 /* main.m */; };
 		14B84FBC225E27E80045BB48 /* LittleRedBook_masterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B84FBB225E27E80045BB48 /* LittleRedBook_masterTests.m */; };
 		14B84FC7225E27E80045BB48 /* LittleRedBook_masterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B84FC6225E27E80045BB48 /* LittleRedBook_masterUITests.m */; };
+		14B84FDA225E284F0045BB48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B84FD5225E284F0045BB48 /* ViewController.m */; };
+		14B84FDD225E287A0045BB48 /* HomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B84FDC225E287A0045BB48 /* HomeViewModel.m */; };
+		14B84FE6225E3B950045BB48 /* SBNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B84FE4225E3B950045BB48 /* SBNetwork.m */; };
+		14B84FE7225E3B950045BB48 /* SBNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B84FE5225E3B950045BB48 /* SBNetworking.m */; };
+		14B84FF4225E3C1F0045BB48 /* ImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B84FEA225E3C1F0045BB48 /* ImageUtil.m */; };
+		14B84FF5225E3C1F0045BB48 /* HKDateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B84FEC225E3C1F0045BB48 /* HKDateTool.m */; };
+		14B84FF7225E3C1F0045BB48 /* HKDateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B84FEF225E3C1F0045BB48 /* HKDateTools.m */; };
+		14B84FF9225E3E3D0045BB48 /* AppUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B84FE9225E3C1F0045BB48 /* AppUtils.m */; };
+		14B85000225E40EA0045BB48 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B84FFD225E40EA0045BB48 /* NSData+AES.m */; };
+		14B85001225E40EA0045BB48 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B84FFF225E40EA0045BB48 /* GTMBase64.m */; };
+		8DCA10F93E24F0F93D04FC47 /* Pods_LittleRedBook_master.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293674DFE9A37B82D1DF0159 /* Pods_LittleRedBook_master.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +48,6 @@
 		14B84F9F225E27E30045BB48 /* LittleRedBook-master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LittleRedBook-master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14B84FA2225E27E30045BB48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		14B84FA3225E27E30045BB48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		14B84FA5225E27E30045BB48 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		14B84FA6225E27E30045BB48 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		14B84FA9225E27E30045BB48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14B84FAB225E27E80045BB48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14B84FAE225E27E80045BB48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +59,31 @@
 		14B84FC2225E27E80045BB48 /* LittleRedBook-masterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LittleRedBook-masterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14B84FC6225E27E80045BB48 /* LittleRedBook_masterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LittleRedBook_masterUITests.m; sourceTree = "<group>"; };
 		14B84FC8225E27E80045BB48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14B84FD5225E284F0045BB48 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14B84FD6225E284F0045BB48 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14B84FDB225E287A0045BB48 /* HomeViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewModel.h; sourceTree = "<group>"; };
+		14B84FDC225E287A0045BB48 /* HomeViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewModel.m; sourceTree = "<group>"; };
+		14B84FE2225E3B950045BB48 /* SBNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBNetwork.h; sourceTree = "<group>"; };
+		14B84FE3225E3B950045BB48 /* SBNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBNetworking.h; sourceTree = "<group>"; };
+		14B84FE4225E3B950045BB48 /* SBNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBNetwork.m; sourceTree = "<group>"; };
+		14B84FE5225E3B950045BB48 /* SBNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBNetworking.m; sourceTree = "<group>"; };
+		14B84FE9225E3C1F0045BB48 /* AppUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppUtils.m; sourceTree = "<group>"; };
+		14B84FEA225E3C1F0045BB48 /* ImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUtil.m; sourceTree = "<group>"; };
+		14B84FEB225E3C1F0045BB48 /* HKDateTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKDateTools.h; sourceTree = "<group>"; };
+		14B84FEC225E3C1F0045BB48 /* HKDateTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKDateTool.m; sourceTree = "<group>"; };
+		14B84FEE225E3C1F0045BB48 /* AppUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppUtils.h; sourceTree = "<group>"; };
+		14B84FEF225E3C1F0045BB48 /* HKDateTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKDateTools.m; sourceTree = "<group>"; };
+		14B84FF0225E3C1F0045BB48 /* HKDateTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKDateTool.h; sourceTree = "<group>"; };
+		14B84FF1225E3C1F0045BB48 /* ImageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtil.h; sourceTree = "<group>"; };
+		14B84FF8225E3CF10045BB48 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		14B84FFB225E40EA0045BB48 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		14B84FFC225E40EA0045BB48 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		14B84FFD225E40EA0045BB48 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		14B84FFE225E40EA0045BB48 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		14B84FFF225E40EA0045BB48 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		293674DFE9A37B82D1DF0159 /* Pods_LittleRedBook_master.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LittleRedBook_master.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		683FDD37F1C87E2651335CDB /* Pods-LittleRedBook-master.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittleRedBook-master.release.xcconfig"; path = "Target Support Files/Pods-LittleRedBook-master/Pods-LittleRedBook-master.release.xcconfig"; sourceTree = "<group>"; };
+		B3F4FDFEA9BAFAC499E5DB40 /* Pods-LittleRedBook-master.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittleRedBook-master.debug.xcconfig"; path = "Target Support Files/Pods-LittleRedBook-master/Pods-LittleRedBook-master.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DCA10F93E24F0F93D04FC47 /* Pods_LittleRedBook_master.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +119,8 @@
 				14B84FBA225E27E80045BB48 /* LittleRedBook-masterTests */,
 				14B84FC5225E27E80045BB48 /* LittleRedBook-masterUITests */,
 				14B84FA0225E27E30045BB48 /* Products */,
+				BA6F60FA93ECC7BB666A27E8 /* Pods */,
+				355D5B1765E83F422113D5B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +139,13 @@
 			children = (
 				14B84FA2225E27E30045BB48 /* AppDelegate.h */,
 				14B84FA3225E27E30045BB48 /* AppDelegate.m */,
-				14B84FA5225E27E30045BB48 /* ViewController.h */,
-				14B84FA6225E27E30045BB48 /* ViewController.m */,
+				14B84FD4225E284F0045BB48 /* ViewController */,
+				14B84FD8225E284F0045BB48 /* Model */,
+				14B84FD9225E284F0045BB48 /* View */,
+				14B84FD7225E284F0045BB48 /* ViewModel */,
+				14B84FE0225E3B7C0045BB48 /* Vendor */,
 				14B84FA8225E27E30045BB48 /* Main.storyboard */,
+				14B84FF8225E3CF10045BB48 /* PrefixHeader.pch */,
 				14B84FAB225E27E80045BB48 /* Assets.xcassets */,
 				14B84FAD225E27E80045BB48 /* LaunchScreen.storyboard */,
 				14B84FB0225E27E80045BB48 /* Info.plist */,
@@ -132,6 +172,103 @@
 			path = "LittleRedBook-masterUITests";
 			sourceTree = "<group>";
 		};
+		14B84FD4225E284F0045BB48 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				14B84FD6225E284F0045BB48 /* ViewController.h */,
+				14B84FD5225E284F0045BB48 /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		14B84FD7225E284F0045BB48 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				14B84FDB225E287A0045BB48 /* HomeViewModel.h */,
+				14B84FDC225E287A0045BB48 /* HomeViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		14B84FD8225E284F0045BB48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14B84FD9225E284F0045BB48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		14B84FE0225E3B7C0045BB48 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				14B84FFA225E40EA0045BB48 /* GTMBase64 */,
+				14B84FE8225E3C1F0045BB48 /* Utils */,
+				14B84FE1225E3B950045BB48 /* SBNetWorking */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		14B84FE1225E3B950045BB48 /* SBNetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				14B84FE2225E3B950045BB48 /* SBNetwork.h */,
+				14B84FE4225E3B950045BB48 /* SBNetwork.m */,
+				14B84FE3225E3B950045BB48 /* SBNetworking.h */,
+				14B84FE5225E3B950045BB48 /* SBNetworking.m */,
+			);
+			path = SBNetWorking;
+			sourceTree = "<group>";
+		};
+		14B84FE8225E3C1F0045BB48 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				14B84FEE225E3C1F0045BB48 /* AppUtils.h */,
+				14B84FE9225E3C1F0045BB48 /* AppUtils.m */,
+				14B84FEA225E3C1F0045BB48 /* ImageUtil.m */,
+				14B84FEB225E3C1F0045BB48 /* HKDateTools.h */,
+				14B84FEC225E3C1F0045BB48 /* HKDateTool.m */,
+				14B84FEF225E3C1F0045BB48 /* HKDateTools.m */,
+				14B84FF0225E3C1F0045BB48 /* HKDateTool.h */,
+				14B84FF1225E3C1F0045BB48 /* ImageUtil.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		14B84FFA225E40EA0045BB48 /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				14B84FFB225E40EA0045BB48 /* NSData+AES.h */,
+				14B84FFC225E40EA0045BB48 /* GTMBase64.h */,
+				14B84FFD225E40EA0045BB48 /* NSData+AES.m */,
+				14B84FFE225E40EA0045BB48 /* GTMDefines.h */,
+				14B84FFF225E40EA0045BB48 /* GTMBase64.m */,
+			);
+			path = GTMBase64;
+			sourceTree = "<group>";
+		};
+		355D5B1765E83F422113D5B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				293674DFE9A37B82D1DF0159 /* Pods_LittleRedBook_master.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA6F60FA93ECC7BB666A27E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3F4FDFEA9BAFAC499E5DB40 /* Pods-LittleRedBook-master.debug.xcconfig */,
+				683FDD37F1C87E2651335CDB /* Pods-LittleRedBook-master.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +276,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14B84FCB225E27E80045BB48 /* Build configuration list for PBXNativeTarget "LittleRedBook-master" */;
 			buildPhases = (
+				01BF5C9A1514C0AE72FE5541 /* [CP] Check Pods Manifest.lock */,
 				14B84F9B225E27E30045BB48 /* Sources */,
 				14B84F9C225E27E30045BB48 /* Frameworks */,
 				14B84F9D225E27E30045BB48 /* Resources */,
+				5BFAC1C9C53EC41F2E4A57E5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,14 +396,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01BF5C9A1514C0AE72FE5541 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LittleRedBook-master-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BFAC1C9C53EC41F2E4A57E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LittleRedBook-master/Pods-LittleRedBook-master-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDCycleScrollView/SDCycleScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDCycleScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LittleRedBook-master/Pods-LittleRedBook-master-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		14B84F9B225E27E30045BB48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14B84FA7225E27E30045BB48 /* ViewController.m in Sources */,
+				14B84FF9225E3E3D0045BB48 /* AppUtils.m in Sources */,
+				14B84FF5225E3C1F0045BB48 /* HKDateTool.m in Sources */,
+				14B84FF7225E3C1F0045BB48 /* HKDateTools.m in Sources */,
+				14B84FDA225E284F0045BB48 /* ViewController.m in Sources */,
+				14B84FE6225E3B950045BB48 /* SBNetwork.m in Sources */,
 				14B84FB2225E27E80045BB48 /* main.m in Sources */,
 				14B84FA4225E27E30045BB48 /* AppDelegate.m in Sources */,
+				14B85001225E40EA0045BB48 /* GTMBase64.m in Sources */,
+				14B84FE7225E3B950045BB48 /* SBNetworking.m in Sources */,
+				14B85000225E40EA0045BB48 /* NSData+AES.m in Sources */,
+				14B84FDD225E287A0045BB48 /* HomeViewModel.m in Sources */,
+				14B84FF4225E3C1F0045BB48 /* ImageUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,10 +638,12 @@
 		};
 		14B84FCC225E27E80045BB48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3F4FDFEA9BAFAC499E5DB40 /* Pods-LittleRedBook-master.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YEFYT2Y9CS;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LittleRedBook-master/PrefixHeader.pch";
 				INFOPLIST_FILE = "LittleRedBook-master/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,10 +657,12 @@
 		};
 		14B84FCD225E27E80045BB48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 683FDD37F1C87E2651335CDB /* Pods-LittleRedBook-master.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YEFYT2Y9CS;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LittleRedBook-master/PrefixHeader.pch";
 				INFOPLIST_FILE = "LittleRedBook-master/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

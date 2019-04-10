@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/mli/Desktop/Develope/iOS-OC/LittleRedBook-master/LittleRedBook-master/Vendor/SBNetWorking/SBNetwork.m \
+  /Users/mli/Desktop/Develope/iOS-OC/LittleRedBook-master/LittleRedBook-master/PrefixHeader.pch \
+  /Users/mli/Desktop/Develope/iOS-OC/LittleRedBook-master/LittleRedBook-master/Vendor/Utils/AppUtils.h \
+  /Users/mli/Desktop/Develope/iOS-OC/LittleRedBook-master/LittleRedBook-master/Vendor/SBNetWorking/SBNetwork.h \
+  /Users/mli/Desktop/Develope/iOS-OC/LittleRedBook-master/Build/Products/Debug-iphonesimulator/YYCache/YYCache.framework/Modules/module.modulemap \
+  /Users/mli/Desktop/Develope/iOS-OC/LittleRedBook-master/Build/Products/Debug-iphonesimulator/YYCache/YYCache.framework/Headers/YYKVStorage.h \
+  /Users/mli/Desktop/Develope/iOS-OC/LittleRedBook-master/Build/Products/Debug-iphonesimulator/YYCache/YYCache.framework/Headers/YYDiskCache.h \
+  /Users/mli/Desktop/Develope/iOS-OC/LittleRedBook-master/Build/Products/Debug-iphonesimulator/YYCache/YYCache.framework/Headers/YYMemoryCache.h \
+  /Users/mli/Desktop/Develope/iOS-OC/LittleRedBook-master/Build/Products/Debug-iphonesimulator/YYCache/YYCache.framework/Headers/YYCache.h \
+  /Users/mli/Desktop/Develope/iOS-OC/LittleRedBook-master/Build/Products/Debug-iphonesimulator/YYCache/YYCache.framework/Headers/YYCache-umbrella.h \
+  /Users/mli/Desktop/Develope/iOS-OC/LittleRedBook-master/Build/Products/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h \
+  /Users/mli/Desktop/Develope/iOS-OC/LittleRedBook-master/Build/Products/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Headers/AFNetworking.h \
+  /Users/mli/Desktop/Develope/iOS-OC/LittleRedBook-master/Build/Products/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Headers/AFURLRequestSerialization.h \
+  /Users/mli/Desktop/Develope/iOS-OC/LittleRedBook-master/Build/Products/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Headers/AFURLResponseSerialization.h \
+  /Users/mli/Desktop/Develope/iOS-OC/LittleRedBook-master/Build/Products/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Headers/AFSecurityPolicy.h \
+  /Users/mli/Desktop/Develope/iOS-OC/LittleRedBook-master/Build/Products/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Headers/AFNetworkReachabilityManager.h \
+  /Users/mli/Desktop/Develope/iOS-OC/LittleRedBook-master/Build/Products/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Headers/AFURLSessionManager.h \
+  /Users/mli/Desktop/Develope/iOS-OC/LittleRedBook-master/Build/Products/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Headers/AFCompatibilityMacros.h \
+  /Users/mli/Desktop/Develope/iOS-OC/LittleRedBook-master/Build/Products/Debug-iphonesimulator/AFNetworking/AFNetworking.framework/Headers/AFHTTPSessionManager.h
