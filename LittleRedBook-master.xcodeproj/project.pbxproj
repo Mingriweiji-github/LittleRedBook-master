@@ -16,14 +16,29 @@
 		14B84FC7225E27E80045BB48 /* LittleRedBook_masterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B84FC6225E27E80045BB48 /* LittleRedBook_masterUITests.m */; };
 		14B84FDA225E284F0045BB48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B84FD5225E284F0045BB48 /* ViewController.m */; };
 		14B84FDD225E287A0045BB48 /* HomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B84FDC225E287A0045BB48 /* HomeViewModel.m */; };
-		14B84FE6225E3B950045BB48 /* SBNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B84FE4225E3B950045BB48 /* SBNetwork.m */; };
-		14B84FE7225E3B950045BB48 /* SBNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B84FE5225E3B950045BB48 /* SBNetworking.m */; };
 		14B84FF4225E3C1F0045BB48 /* ImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B84FEA225E3C1F0045BB48 /* ImageUtil.m */; };
 		14B84FF5225E3C1F0045BB48 /* HKDateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B84FEC225E3C1F0045BB48 /* HKDateTool.m */; };
 		14B84FF7225E3C1F0045BB48 /* HKDateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B84FEF225E3C1F0045BB48 /* HKDateTools.m */; };
 		14B84FF9225E3E3D0045BB48 /* AppUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B84FE9225E3C1F0045BB48 /* AppUtils.m */; };
 		14B85000225E40EA0045BB48 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B84FFD225E40EA0045BB48 /* NSData+AES.m */; };
 		14B85001225E40EA0045BB48 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B84FFF225E40EA0045BB48 /* GTMBase64.m */; };
+		50209D92225EE41A00B9CB3D /* DefaultServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B22659225EDA5E00C9D0A3 /* DefaultServerRequest.m */; };
+		50ABB85A225F00D40024EBC5 /* HomeRecommandModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ABB858225F00D30024EBC5 /* HomeRecommandModel.m */; };
+		50ABB868225F00E80024EBC5 /* NSObject+WTEscape.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ABB85C225F00E80024EBC5 /* NSObject+WTEscape.m */; };
+		50ABB869225F00E80024EBC5 /* NSDictionary+WTEscape.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ABB85D225F00E80024EBC5 /* NSDictionary+WTEscape.m */; };
+		50ABB86A225F00E80024EBC5 /* NSSet+WTEscape.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ABB85F225F00E80024EBC5 /* NSSet+WTEscape.m */; };
+		50ABB86B225F00E80024EBC5 /* NSString+WTEscape.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ABB861225F00E80024EBC5 /* NSString+WTEscape.m */; };
+		50ABB86C225F00E80024EBC5 /* NSData+WTEscape_h.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ABB863225F00E80024EBC5 /* NSData+WTEscape_h.m */; };
+		50ABB86D225F00E80024EBC5 /* NSArray+WTEscape.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ABB866225F00E80024EBC5 /* NSArray+WTEscape.m */; };
+		50ABB870225F05410024EBC5 /* CommanConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ABB86F225F05410024EBC5 /* CommanConst.m */; };
+		50ABB874225F0B090024EBC5 /* HomeVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ABB872225F0B090024EBC5 /* HomeVideoCell.m */; };
+		50ABB875225F0B090024EBC5 /* HomeVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50ABB873225F0B090024EBC5 /* HomeVideoCell.xib */; };
+		50B22654225ED6BC00C9D0A3 /* YBNetworkResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B22649225ED6BC00C9D0A3 /* YBNetworkResponse.m */; };
+		50B22655225ED6BC00C9D0A3 /* YBNetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B2264E225ED6BC00C9D0A3 /* YBNetworkCache.m */; };
+		50B22656225ED6BC00C9D0A3 /* YBNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B22650225ED6BC00C9D0A3 /* YBNetworkManager.m */; };
+		50B22657225ED6BC00C9D0A3 /* YBBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B22653225ED6BC00C9D0A3 /* YBBaseRequest.m */; };
+		50B2265E225EDA5E00C9D0A3 /* OtherServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B2265A225EDA5E00C9D0A3 /* OtherServerRequest.m */; };
+		50FD1B38225EEC8200D1590D /* NSDictionary+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FD1B37225EEC8200D1590D /* NSDictionary+Log.m */; };
 		8DCA10F93E24F0F93D04FC47 /* Pods_LittleRedBook_master.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293674DFE9A37B82D1DF0159 /* Pods_LittleRedBook_master.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,10 +78,6 @@
 		14B84FD6225E284F0045BB48 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		14B84FDB225E287A0045BB48 /* HomeViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewModel.h; sourceTree = "<group>"; };
 		14B84FDC225E287A0045BB48 /* HomeViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewModel.m; sourceTree = "<group>"; };
-		14B84FE2225E3B950045BB48 /* SBNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBNetwork.h; sourceTree = "<group>"; };
-		14B84FE3225E3B950045BB48 /* SBNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBNetworking.h; sourceTree = "<group>"; };
-		14B84FE4225E3B950045BB48 /* SBNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBNetwork.m; sourceTree = "<group>"; };
-		14B84FE5225E3B950045BB48 /* SBNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBNetworking.m; sourceTree = "<group>"; };
 		14B84FE9225E3C1F0045BB48 /* AppUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppUtils.m; sourceTree = "<group>"; };
 		14B84FEA225E3C1F0045BB48 /* ImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUtil.m; sourceTree = "<group>"; };
 		14B84FEB225E3C1F0045BB48 /* HKDateTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKDateTools.h; sourceTree = "<group>"; };
@@ -82,6 +93,42 @@
 		14B84FFE225E40EA0045BB48 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		14B84FFF225E40EA0045BB48 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
 		293674DFE9A37B82D1DF0159 /* Pods_LittleRedBook_master.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LittleRedBook_master.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50ABB858225F00D30024EBC5 /* HomeRecommandModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeRecommandModel.m; path = "LittleRedBook-master/Vendor/Category/HomeRecommandModel.m"; sourceTree = SOURCE_ROOT; };
+		50ABB859225F00D30024EBC5 /* HomeRecommandModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeRecommandModel.h; path = "LittleRedBook-master/Vendor/Category/HomeRecommandModel.h"; sourceTree = SOURCE_ROOT; };
+		50ABB85C225F00E80024EBC5 /* NSObject+WTEscape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WTEscape.m"; sourceTree = "<group>"; };
+		50ABB85D225F00E80024EBC5 /* NSDictionary+WTEscape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+WTEscape.m"; sourceTree = "<group>"; };
+		50ABB85E225F00E80024EBC5 /* NSData+WTEscape_h.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+WTEscape_h.h"; sourceTree = "<group>"; };
+		50ABB85F225F00E80024EBC5 /* NSSet+WTEscape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+WTEscape.m"; sourceTree = "<group>"; };
+		50ABB860225F00E80024EBC5 /* NSArray+WTEscape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+WTEscape.h"; sourceTree = "<group>"; };
+		50ABB861225F00E80024EBC5 /* NSString+WTEscape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WTEscape.m"; sourceTree = "<group>"; };
+		50ABB862225F00E80024EBC5 /* NSSet+WTEscape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+WTEscape.h"; sourceTree = "<group>"; };
+		50ABB863225F00E80024EBC5 /* NSData+WTEscape_h.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+WTEscape_h.m"; sourceTree = "<group>"; };
+		50ABB864225F00E80024EBC5 /* NSDictionary+WTEscape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+WTEscape.h"; sourceTree = "<group>"; };
+		50ABB865225F00E80024EBC5 /* NSObject+WTEscape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WTEscape.h"; sourceTree = "<group>"; };
+		50ABB866225F00E80024EBC5 /* NSArray+WTEscape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WTEscape.m"; sourceTree = "<group>"; };
+		50ABB867225F00E80024EBC5 /* NSString+WTEscape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WTEscape.h"; sourceTree = "<group>"; };
+		50ABB86E225F05410024EBC5 /* CommanConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommanConst.h; sourceTree = "<group>"; };
+		50ABB86F225F05410024EBC5 /* CommanConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommanConst.m; sourceTree = "<group>"; };
+		50ABB871225F0B090024EBC5 /* HomeVideoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HomeVideoCell.h; path = "LittleRedBook-master/HomeVideoCell.h"; sourceTree = SOURCE_ROOT; };
+		50ABB872225F0B090024EBC5 /* HomeVideoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HomeVideoCell.m; path = "LittleRedBook-master/HomeVideoCell.m"; sourceTree = SOURCE_ROOT; };
+		50ABB873225F0B090024EBC5 /* HomeVideoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HomeVideoCell.xib; path = "LittleRedBook-master/HomeVideoCell.xib"; sourceTree = SOURCE_ROOT; };
+		50B22646225ED6BC00C9D0A3 /* YBBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBBaseRequest.h; sourceTree = "<group>"; };
+		50B22647225ED6BC00C9D0A3 /* YBNetworkDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBNetworkDefine.h; sourceTree = "<group>"; };
+		50B22649225ED6BC00C9D0A3 /* YBNetworkResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBNetworkResponse.m; sourceTree = "<group>"; };
+		50B2264A225ED6BC00C9D0A3 /* YBNetworkResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBNetworkResponse.h; sourceTree = "<group>"; };
+		50B2264C225ED6BC00C9D0A3 /* YBNetworkCache+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YBNetworkCache+Internal.h"; sourceTree = "<group>"; };
+		50B2264D225ED6BC00C9D0A3 /* YBNetworkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBNetworkCache.h; sourceTree = "<group>"; };
+		50B2264E225ED6BC00C9D0A3 /* YBNetworkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBNetworkCache.m; sourceTree = "<group>"; };
+		50B22650225ED6BC00C9D0A3 /* YBNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBNetworkManager.m; sourceTree = "<group>"; };
+		50B22651225ED6BC00C9D0A3 /* YBBaseRequest+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YBBaseRequest+Internal.h"; sourceTree = "<group>"; };
+		50B22652225ED6BC00C9D0A3 /* YBNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBNetworkManager.h; sourceTree = "<group>"; };
+		50B22653225ED6BC00C9D0A3 /* YBBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBBaseRequest.m; sourceTree = "<group>"; };
+		50B22659225EDA5E00C9D0A3 /* DefaultServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultServerRequest.m; sourceTree = "<group>"; };
+		50B2265A225EDA5E00C9D0A3 /* OtherServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherServerRequest.m; sourceTree = "<group>"; };
+		50B2265B225EDA5E00C9D0A3 /* OtherServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherServerRequest.h; sourceTree = "<group>"; };
+		50B2265C225EDA5E00C9D0A3 /* DefaultServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultServerRequest.h; sourceTree = "<group>"; };
+		50FD1B36225EEC8200D1590D /* NSDictionary+Log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Log.h"; sourceTree = "<group>"; };
+		50FD1B37225EEC8200D1590D /* NSDictionary+Log.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Log.m"; sourceTree = "<group>"; };
 		683FDD37F1C87E2651335CDB /* Pods-LittleRedBook-master.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittleRedBook-master.release.xcconfig"; path = "Target Support Files/Pods-LittleRedBook-master/Pods-LittleRedBook-master.release.xcconfig"; sourceTree = "<group>"; };
 		B3F4FDFEA9BAFAC499E5DB40 /* Pods-LittleRedBook-master.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittleRedBook-master.debug.xcconfig"; path = "Target Support Files/Pods-LittleRedBook-master/Pods-LittleRedBook-master.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,12 +187,14 @@
 				14B84FA2225E27E30045BB48 /* AppDelegate.h */,
 				14B84FA3225E27E30045BB48 /* AppDelegate.m */,
 				14B84FD4225E284F0045BB48 /* ViewController */,
-				14B84FD8225E284F0045BB48 /* Model */,
 				14B84FD9225E284F0045BB48 /* View */,
 				14B84FD7225E284F0045BB48 /* ViewModel */,
+				14B84FD8225E284F0045BB48 /* Model */,
 				14B84FE0225E3B7C0045BB48 /* Vendor */,
 				14B84FA8225E27E30045BB48 /* Main.storyboard */,
 				14B84FF8225E3CF10045BB48 /* PrefixHeader.pch */,
+				50ABB86E225F05410024EBC5 /* CommanConst.h */,
+				50ABB86F225F05410024EBC5 /* CommanConst.m */,
 				14B84FAB225E27E80045BB48 /* Assets.xcassets */,
 				14B84FAD225E27E80045BB48 /* LaunchScreen.storyboard */,
 				14B84FB0225E27E80045BB48 /* Info.plist */,
@@ -193,6 +242,8 @@
 		14B84FD8225E284F0045BB48 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				50ABB859225F00D30024EBC5 /* HomeRecommandModel.h */,
+				50ABB858225F00D30024EBC5 /* HomeRecommandModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -200,6 +251,9 @@
 		14B84FD9225E284F0045BB48 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				50ABB871225F0B090024EBC5 /* HomeVideoCell.h */,
+				50ABB872225F0B090024EBC5 /* HomeVideoCell.m */,
+				50ABB873225F0B090024EBC5 /* HomeVideoCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -207,22 +261,14 @@
 		14B84FE0225E3B7C0045BB48 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				50ABB85B225F00E80024EBC5 /* WTEscape */,
+				50FD1B35225EEC6900D1590D /* Category */,
 				14B84FFA225E40EA0045BB48 /* GTMBase64 */,
 				14B84FE8225E3C1F0045BB48 /* Utils */,
-				14B84FE1225E3B950045BB48 /* SBNetWorking */,
+				50B22645225ED6BC00C9D0A3 /* YBNetwork */,
+				50B22658225EDA5E00C9D0A3 /* APITeams */,
 			);
 			path = Vendor;
-			sourceTree = "<group>";
-		};
-		14B84FE1225E3B950045BB48 /* SBNetWorking */ = {
-			isa = PBXGroup;
-			children = (
-				14B84FE2225E3B950045BB48 /* SBNetwork.h */,
-				14B84FE4225E3B950045BB48 /* SBNetwork.m */,
-				14B84FE3225E3B950045BB48 /* SBNetworking.h */,
-				14B84FE5225E3B950045BB48 /* SBNetworking.m */,
-			);
-			path = SBNetWorking;
 			sourceTree = "<group>";
 		};
 		14B84FE8225E3C1F0045BB48 /* Utils */ = {
@@ -258,6 +304,89 @@
 				293674DFE9A37B82D1DF0159 /* Pods_LittleRedBook_master.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50ABB85B225F00E80024EBC5 /* WTEscape */ = {
+			isa = PBXGroup;
+			children = (
+				50ABB85C225F00E80024EBC5 /* NSObject+WTEscape.m */,
+				50ABB85D225F00E80024EBC5 /* NSDictionary+WTEscape.m */,
+				50ABB85E225F00E80024EBC5 /* NSData+WTEscape_h.h */,
+				50ABB85F225F00E80024EBC5 /* NSSet+WTEscape.m */,
+				50ABB860225F00E80024EBC5 /* NSArray+WTEscape.h */,
+				50ABB861225F00E80024EBC5 /* NSString+WTEscape.m */,
+				50ABB862225F00E80024EBC5 /* NSSet+WTEscape.h */,
+				50ABB863225F00E80024EBC5 /* NSData+WTEscape_h.m */,
+				50ABB864225F00E80024EBC5 /* NSDictionary+WTEscape.h */,
+				50ABB865225F00E80024EBC5 /* NSObject+WTEscape.h */,
+				50ABB866225F00E80024EBC5 /* NSArray+WTEscape.m */,
+				50ABB867225F00E80024EBC5 /* NSString+WTEscape.h */,
+			);
+			name = WTEscape;
+			path = Category/WTEscape;
+			sourceTree = "<group>";
+		};
+		50B22645225ED6BC00C9D0A3 /* YBNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				50B22647225ED6BC00C9D0A3 /* YBNetworkDefine.h */,
+				50B22646225ED6BC00C9D0A3 /* YBBaseRequest.h */,
+				50B22653225ED6BC00C9D0A3 /* YBBaseRequest.m */,
+				50B22648225ED6BC00C9D0A3 /* Response */,
+				50B2264B225ED6BC00C9D0A3 /* Cache */,
+				50B2264F225ED6BC00C9D0A3 /* Manger */,
+			);
+			name = YBNetwork;
+			path = "../../../../../Downloads/YBNetwork-master/YBNetwork";
+			sourceTree = "<group>";
+		};
+		50B22648225ED6BC00C9D0A3 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				50B2264A225ED6BC00C9D0A3 /* YBNetworkResponse.h */,
+				50B22649225ED6BC00C9D0A3 /* YBNetworkResponse.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		50B2264B225ED6BC00C9D0A3 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				50B2264C225ED6BC00C9D0A3 /* YBNetworkCache+Internal.h */,
+				50B2264D225ED6BC00C9D0A3 /* YBNetworkCache.h */,
+				50B2264E225ED6BC00C9D0A3 /* YBNetworkCache.m */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		50B2264F225ED6BC00C9D0A3 /* Manger */ = {
+			isa = PBXGroup;
+			children = (
+				50B22651225ED6BC00C9D0A3 /* YBBaseRequest+Internal.h */,
+				50B22652225ED6BC00C9D0A3 /* YBNetworkManager.h */,
+				50B22650225ED6BC00C9D0A3 /* YBNetworkManager.m */,
+			);
+			path = Manger;
+			sourceTree = "<group>";
+		};
+		50B22658225EDA5E00C9D0A3 /* APITeams */ = {
+			isa = PBXGroup;
+			children = (
+				50B2265C225EDA5E00C9D0A3 /* DefaultServerRequest.h */,
+				50B22659225EDA5E00C9D0A3 /* DefaultServerRequest.m */,
+				50B2265B225EDA5E00C9D0A3 /* OtherServerRequest.h */,
+				50B2265A225EDA5E00C9D0A3 /* OtherServerRequest.m */,
+			);
+			path = APITeams;
+			sourceTree = "<group>";
+		};
+		50FD1B35225EEC6900D1590D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				50FD1B36225EEC8200D1590D /* NSDictionary+Log.h */,
+				50FD1B37225EEC8200D1590D /* NSDictionary+Log.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		BA6F60FA93ECC7BB666A27E8 /* Pods */ = {
@@ -376,6 +505,7 @@
 			files = (
 				14B84FAF225E27E80045BB48 /* LaunchScreen.storyboard in Resources */,
 				14B84FAC225E27E80045BB48 /* Assets.xcassets in Resources */,
+				50ABB875225F0B090024EBC5 /* HomeVideoCell.xib in Resources */,
 				14B84FAA225E27E30045BB48 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +559,7 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LittleRedBook-master/Pods-LittleRedBook-master-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/JLLogEncoding/JLLogEncoding.framework",
 				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/SDCycleScrollView/SDCycleScrollView.framework",
@@ -440,6 +571,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JLLogEncoding.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDCycleScrollView.framework",
@@ -458,15 +590,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50209D92225EE41A00B9CB3D /* DefaultServerRequest.m in Sources */,
 				14B84FF9225E3E3D0045BB48 /* AppUtils.m in Sources */,
+				50B2265E225EDA5E00C9D0A3 /* OtherServerRequest.m in Sources */,
+				50ABB85A225F00D40024EBC5 /* HomeRecommandModel.m in Sources */,
+				50FD1B38225EEC8200D1590D /* NSDictionary+Log.m in Sources */,
+				50ABB86C225F00E80024EBC5 /* NSData+WTEscape_h.m in Sources */,
+				50ABB874225F0B090024EBC5 /* HomeVideoCell.m in Sources */,
 				14B84FF5225E3C1F0045BB48 /* HKDateTool.m in Sources */,
 				14B84FF7225E3C1F0045BB48 /* HKDateTools.m in Sources */,
+				50ABB86A225F00E80024EBC5 /* NSSet+WTEscape.m in Sources */,
 				14B84FDA225E284F0045BB48 /* ViewController.m in Sources */,
-				14B84FE6225E3B950045BB48 /* SBNetwork.m in Sources */,
+				50B22654225ED6BC00C9D0A3 /* YBNetworkResponse.m in Sources */,
+				50B22655225ED6BC00C9D0A3 /* YBNetworkCache.m in Sources */,
+				50ABB870225F05410024EBC5 /* CommanConst.m in Sources */,
+				50B22656225ED6BC00C9D0A3 /* YBNetworkManager.m in Sources */,
 				14B84FB2225E27E80045BB48 /* main.m in Sources */,
+				50ABB86B225F00E80024EBC5 /* NSString+WTEscape.m in Sources */,
+				50ABB869225F00E80024EBC5 /* NSDictionary+WTEscape.m in Sources */,
+				50B22657225ED6BC00C9D0A3 /* YBBaseRequest.m in Sources */,
 				14B84FA4225E27E30045BB48 /* AppDelegate.m in Sources */,
+				50ABB868225F00E80024EBC5 /* NSObject+WTEscape.m in Sources */,
 				14B85001225E40EA0045BB48 /* GTMBase64.m in Sources */,
-				14B84FE7225E3B950045BB48 /* SBNetworking.m in Sources */,
+				50ABB86D225F00E80024EBC5 /* NSArray+WTEscape.m in Sources */,
 				14B85000225E40EA0045BB48 /* NSData+AES.m in Sources */,
 				14B84FDD225E287A0045BB48 /* HomeViewModel.m in Sources */,
 				14B84FF4225E3C1F0045BB48 /* ImageUtil.m in Sources */,
@@ -652,6 +798,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.KM.LittleRedBook-master";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
@@ -671,6 +818,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.KM.LittleRedBook-master";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};

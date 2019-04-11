@@ -7,25 +7,43 @@
 //
 
 #import "HomeViewModel.h"
-@implementation HomeViewModel
-/*
- get:https://111.231.179.228/api/sns/v6/homefeed?deviceId=D4FDE4B4-BB62-46FD-9726-B2C80F8101FF&device_fingerprint=201803012326143984e6d57fdbe6c378b0caa1680d951b0104f282fb38b174&device_fingerprint1=201803012326143984e6d57fdbe6c378b0caa1680d951b0104f282fb38b174&lang=zh&note_index=0&num=10&oid=homefeed_recommend&platform=iOS&refresh_type=1&sid=session.1545641552027559431&sign=e103bba3f1a78187282c78cc0f8b76a1&t=1554901167&trace_id=C8812A44-1E28-4877-8C06-9712E1C6826A&use_jpeg=1
- */
-+ (void)getHomeListWithURL:(NSString *)urlString Success:(HKResponseSuccess)success failure:(HKResponseFail)failure{
-    
-    [SBNetwork GETWithURL:urlString parameters:@{} cachePolicy:SBCachePolicyNetworkElseCache callback:^(id responseObject, NSError *error) {
-        
-        
-//        if (!error) {
-//            LKHomeModel *model = [LKHomeModel mj_objectWithKeyValues:responseObject];
-//            if ( model && model.code == 0) {
-//                success(model.data);
-//            }
-//        }else{
-//            failure(responseObject);
-//        }
-    }];
-}
+#import "DefaultServerRequest.h"
+#import "HomeRecommandModel.h"
 
+@implementation HomeViewModel
+
++ (void)getDataWith:(NSString *)url withSuccess:(YBRequestSuccessBlock)success faliure:(YBRequestFailureBlock)failure{
+    DefaultServerRequest *request = [DefaultServerRequest new];
+    request.requestMethod = YBRequestMethodGET;
+    request.requestURI = url;
+    __weak typeof(self) weakSelf = self;
+    [request startWithSuccess:^(YBNetworkResponse * _Nonnull response) {
+        __strong typeof(weakSelf) self = weakSelf;
+        if (self == nil) {
+            return ;
+        }
+        NSLog(@"responseObject:%@",response.responseObject);
+        HomeRecommandModel *model = [HomeRecommandModel mj_objectWithKeyValues:response.responseObject];
+        NSArray *data = model.data;
+        NSMutableArray *dataSource = [NSMutableArray array];
+        if (data.count) {
+            for (NSDictionary *dict in data) {
+                NSDictionary *content = [AppUtils parseJSON:dict[@"content"]];
+                HomeRecommandModelContent *contentModel = [HomeRecommandModelContent mj_objectWithKeyValues:content];
+                [dataSource addObject:contentModel];
+            }
+        }
+        if (dataSource.count) {
+            success(dataSource);
+        }
+    } failure:^(YBNetworkResponse * _Nonnull response) {
+        __strong typeof(weakSelf) self = weakSelf;
+        if (self == nil) {
+            return ;
+        }
+        NSLog(@"failure:%@",@(response.errorType));
+    }];
+
+}
 
 @end

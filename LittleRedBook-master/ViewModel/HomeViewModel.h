@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface HomeViewModel : NSObject
 
++ (void)getDataWith:(NSString *)url withSuccess:(YBRequestSuccessBlock)success faliure:(YBRequestFailureBlock)failure;
+
 @end
 
 NS_ASSUME_NONNULL_END
